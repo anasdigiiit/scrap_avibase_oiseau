@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+lxml
+openpyxl
+python-dotenv
+urllib3
+tenacity

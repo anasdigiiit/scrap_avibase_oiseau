@@ -1,0 +1,13 @@
+{
+  "$schema": "https://railway.com/railway.schema.json",
+  "build": {
+    "builder": "RAILPACK"
+  },
+  "deploy": {
+    "startCommand": "python avibase_exact_excel_scraper_FR_OISEAUX.py --output output/avibase_maroc_exact.xlsx",
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 5,
+    "overlapSeconds": 0,
+    "drainingSeconds": 300
+  }
+}
